@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+.header{
+    background-color:orangered;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Montserrat','Times New Roman', Times, serif;
+   width: 100%;
+}
+h1{
+    
+    color: orangered;
+    font-weight: bolder;
+}
+#book{
+    display: none;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: cadetblue;
+    width: 200px;
+    height: 140px;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    
+}
+.class{
+    background-image: url("./pic1.png");
+    height: 40%;
+    width: 40%;
+}
+li{
+    list-style-type: none;
+    
+    float: left;
+    padding: 10px;
+    font-size: larger;
+}
+.pictures{
+    width: 300px;
+    float:right
+}
+a{
+    text-decoration: none;
+    
+}
+.dropbtn {
+    
+    background-color:white;
+    color:orangered;
+    padding: 16px;
+    font-size: 16px;
+    border:2px solid white;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px orangered;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color:orangered;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color:yellow;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color:white;}
+ .nav{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background-color:white;
+      
+  }
+  .container-fluid{
+      height: 30%;
+    background-color:white;
+    
+  }
+  
+  .container{
+      width:500px;
+      height:300px;
+  }
+  .carousel-inner{
+      height: 200px;
+      background-color: none;
+      
+  }
+  .carousel-indicators{
+      align-items: center;
+  }
+  .about{
+    margin:5%;
+    font-size: 10px;
+    font-size: 1.5vw;
+  }
+  p{
+      font-weight: bolder;
+      font-family: 'Montserrat','Times New Roman', Times, serif;
+  }
+  #order{
+    margin:5%;
+    color: orangered;
+   font-size: 16px;
+   font-size: 4vw;
+  }
+  
+  .img1{
+   margin:5%;
+        font-size: 16px;
+        font-size: 4vw;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  .img2{
+   margin:5%;
+    font-size: 16px;
+    font-size: 4vw;
+}
+ .aboutus{
+    
+     color: orangered;
+    font-size: 16px;
+    font-size: 4vw;
+ }
+ button{
+     color:white;
+ }
+ #phone{
+    margin:1% 5%;
+    color:black;
+   font-size: 10px;
+   font-size: 1.5vw;
+ }
