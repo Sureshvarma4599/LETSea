@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 .header{
-    background-color:orangered;
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
